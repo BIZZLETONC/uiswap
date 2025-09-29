@@ -112,17 +112,8 @@ The main swap interface allows users to exchange tokens. It includes:
 
 UIswap uses wagmi for wallet connections, with a custom WalletConnectionModal supporting:
 - MetaMask
-- Coinbase Wallet
 - WalletConnect
 - And many other popular wallets
-
-### Liquidity Pools
-
-The pools page shows:
-- Available liquidity pools
-- TVL (Total Value Locked)
-- APR (Annual Percentage Rate)
-- User's liquidity positions
 
 ## Development
 
