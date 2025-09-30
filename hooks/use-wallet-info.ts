@@ -3,7 +3,7 @@
 import { useAccount, useBalance, useChainId } from "wagmi"
 import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains"
 
-// Hook to retrieve wallet-related information
+// Hook to retrieve wallet-related information - updated
 export function useWalletInfo() {
   const { address, isConnected } = useAccount()
   const chainId = useChainId()
