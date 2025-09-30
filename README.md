@@ -12,7 +12,7 @@ UIswap is a modern decentralized exchange (DEX) interface for swapping tokens on
 
 ## Technologies
 
-- **Frontend**: Next.js 14 (App Router), React 18
+- **Frontend**: Next.js 14 (App Router), React 18 
 - **Styling**: Tailwind CSS, shadcn/ui components
 - **Wallet Connection**: wagmi
 - **State Management**: React Context API
