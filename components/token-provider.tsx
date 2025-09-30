@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useState, type ReactNode } from "react"
 
+// Interface for a single token
 export interface Token {
   id: string
   name: string
@@ -20,7 +21,6 @@ interface TokenContextType {
 const TokenContext = createContext<TokenContextType | undefined>(undefined)
 
 export function TokenProvider({ children }: { children: ReactNode }) {
-  // Commit 12: Added a comment to the TokenProvider component.
   const [tokens, setTokens] = useState<Token[]>([
     {
       id: "ethereum",
