@@ -16,6 +16,7 @@ interface TokenSelectorProps {
 
 export function TokenSelector({ selectedToken, onSelectToken, otherToken }: TokenSelectorProps) {
   const { tokens } = useTokenContext()
+  // Commit 8: Added a comment to the TokenSelector component.
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
 
