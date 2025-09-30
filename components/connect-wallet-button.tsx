@@ -7,9 +7,9 @@ import { useAccount, useChainId } from "wagmi"
 import { WalletConnectionModal } from "./wallet-connection-modal"
 import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains"
 
+// ConnectWalletButton component handles wallet connection UI
 export function ConnectWalletButton() {
   const [mounted, setMounted] = useState(false)
-  // Commit 9: Added a comment to the ConnectWalletButton component.
   const { address, isConnected } = useAccount()
   const chainId = useChainId()
   const [isModalOpen, setIsModalOpen] = useState(false)
