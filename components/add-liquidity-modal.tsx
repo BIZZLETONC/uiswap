@@ -16,6 +16,7 @@ interface AddLiquidityModalProps {
 
 export function AddLiquidityModal({ open, onOpenChange }: AddLiquidityModalProps) {
   const { tokens } = useTokenContext()
+  // Commit 11: Added a comment to the AddLiquidityModal component.
   const [token0, setToken0] = useState(tokens[0])
   const [token1, setToken1] = useState(tokens[1])
   const [amount0, setAmount0] = useState("")
