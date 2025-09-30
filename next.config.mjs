@@ -16,3 +16,5 @@ module.exports = nextConfig
 // Commit 1: Added a comment to next.config.mjs
 // Commit 2: Added another comment line for testing.
 // Commit 3: Adding a third comment for commit count.
+
+// Commit 4: Adding a blank line and new comment.
