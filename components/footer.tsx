@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { Github, Twitter, DiscIcon as Discord } from "lucide-react"
 
+// Footer component for navigation and links
 export function Footer() {
-  // Commit 6: Added a comment to the Footer component.
   return (
     <footer className="border-t border-slate-700/50 bg-slate-900/50 backdrop-blur-lg">
       <div className="container mx-auto px-4 py-8">
