@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Github, Twitter, DiscIcon as Discord } from "lucide-react"
 
-// Footer component for navigation and links
+// Footer component with navigation and social links
 export function Footer() {
   return (
     <footer className="border-t border-slate-700/50 bg-slate-900/50 backdrop-blur-lg">
@@ -132,5 +132,3 @@ export function Footer() {
     </footer>
   )
 }
-
-// End of footer.tsx

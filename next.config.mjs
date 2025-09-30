@@ -7,10 +7,10 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, 
+    unoptimized: true,
   },
 }
 
 module.exports = nextConfig
 
-// Commit 1: Added a comment to next.config.mjs
+ // Adding a space for commit #1
