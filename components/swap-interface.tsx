@@ -261,3 +261,4 @@ export default function SwapInterface({ initialBaseToken, initialQuoteToken }: S
     </div>
   )
 }
+// End of SwapInterface component
