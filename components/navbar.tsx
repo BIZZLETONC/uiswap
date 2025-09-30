@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import {  Menu, X } from "lucide-react"
 import { ConnectWalletButton } from "./connect-wallet-button"
 
-// Navbar component definition
+// Main navigation bar component for the application
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -37,5 +37,3 @@ export function Navbar() {
     </header>
   )
 }
-
-// End of navbar.tsx
