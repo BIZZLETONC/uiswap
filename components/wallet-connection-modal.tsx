@@ -197,3 +197,5 @@ export function WalletConnectionModal({ isOpen, onClose, view }: WalletConnectio
     </Dialog>
   )
 }
+
+// End of wallet-connection-modal.tsx
