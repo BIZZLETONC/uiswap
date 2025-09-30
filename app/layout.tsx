@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   themeColor: "#a855f7",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+  // Commit 6: Adding a metadata comment.
 }
 
 export default function RootLayout() {
