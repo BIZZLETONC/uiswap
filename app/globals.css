@@ -81,7 +81,7 @@
   }
 }
 
-/* Custom styles for UIswap - updated */
+/* Custom styles for UIswap application */
 .dark body {
   background: linear-gradient(to bottom, #0f172a, #1e293b);
 }
@@ -89,4 +89,3 @@
 body {
   background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
 }
-/* End of globals.css */
