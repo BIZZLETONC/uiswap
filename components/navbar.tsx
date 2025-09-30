@@ -1,3 +1,4 @@
+// Commit 15: Adding a header comment to navbar.tsx
 "use client"
 
 import { useState } from "react"
