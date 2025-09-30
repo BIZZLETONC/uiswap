@@ -1,6 +1,6 @@
 "use client"
 
-// Custom hook for managing toast notifications
+// Custom hook for managing toast notifications - updated
 // Inspired by react-hot-toast library
 import * as React from "react"
 
