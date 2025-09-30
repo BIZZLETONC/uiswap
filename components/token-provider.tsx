@@ -20,6 +20,7 @@ interface TokenContextType {
 const TokenContext = createContext<TokenContextType | undefined>(undefined)
 
 export function TokenProvider({ children }: { children: ReactNode }) {
+  // Commit 12: Added a comment to the TokenProvider component.
   const [tokens, setTokens] = useState<Token[]>([
     {
       id: "ethereum",
