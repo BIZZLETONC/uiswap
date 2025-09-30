@@ -81,9 +81,7 @@
   }
 }
 
-/* Commit 4: Add a comment to globals.css */
-
-/* Custom styles for UIswap */
+/* Custom styles for UIswap - updated */
 .dark body {
   background: linear-gradient(to bottom, #0f172a, #1e293b);
 }
