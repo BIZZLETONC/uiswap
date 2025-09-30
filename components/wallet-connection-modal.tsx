@@ -6,6 +6,7 @@ import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains"
 import { toast } from "@/components/ui/use-toast"
 import { Copy, ExternalLink, LogOut } from "lucide-react"
 
+// Props for the WalletConnectionModal component
 interface WalletConnectionModalProps {
   isOpen: boolean
   onClose: () => void
@@ -14,7 +15,6 @@ interface WalletConnectionModalProps {
 
 export function WalletConnectionModal({ isOpen, onClose, view }: WalletConnectionModalProps) {
   const { connectors, connect, isPending, error } = useConnect()
-  // Commit 13: Added a comment to the WalletConnectionModal component.
   const { disconnect } = useDisconnect()
   const { address, isConnected } = useAccount()
   const { data: balanceData } = useBalance({ address })
