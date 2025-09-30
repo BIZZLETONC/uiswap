@@ -12,7 +12,7 @@ import { TokenProvider } from "@/components/token-provider"
 import { WalletProvider } from "@/contexts/wallet-context"
 import dynamic from "next/dynamic"
 
-// Import components dynamically to avoid SSR issues
+// Import components dynamically to avoid SSR issues - updated
 const SwapInterface = dynamic(() => import("@/components/swap-interface"), {
   ssr: false,
   loading: () => (
