@@ -26,6 +26,7 @@ export default function RootLayout() {
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.png" type="image/png" />
+        {/* Commit 7: Adding a head comment. */}
         <link rel="apple-touch-icon" href="/icon.png" />
       </head>
       <body className={inter.className}>
