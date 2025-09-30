@@ -5,6 +5,7 @@ import { injected } from "wagmi/connectors"
 
 export const config = createConfig({
   chains: [mainnet, polygon, optimism, arbitrum],
+  // Commit 14: Added a comment to the wagmi config file.
   transports: {
     [mainnet.id]: http(),
     [polygon.id]: http(),
