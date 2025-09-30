@@ -88,3 +88,5 @@ export function ConnectWalletButton() {
     </>
   )
 }
+
+// End of connect-wallet-button.tsx
