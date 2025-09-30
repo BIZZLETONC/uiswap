@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* Commit 9: Adding an inline comment to globals.css */
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
