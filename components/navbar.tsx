@@ -11,6 +11,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
+    // Commit 14: Adding a comment to the Navbar component JSX.
     <header className="sticky top-0 z-50 w-full border-b border-slate-700/50 backdrop-blur-lg">
       <div className=" flex h-16 justify-between px-4 md:px-6 w-full">
         <div className="flex items-center gap-2">
