@@ -6,10 +6,9 @@ import { Button } from "@/components/ui/button"
 import {  Menu, X } from "lucide-react"
 import { ConnectWalletButton } from "./connect-wallet-button"
 
+// Navbar component definition
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  // Commit 5: Added a comment to the Navbar component.
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-700/50 backdrop-blur-lg">
