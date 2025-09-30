@@ -37,3 +37,5 @@ export function Navbar() {
     </header>
   )
 }
+
+// End of navbar.tsx
