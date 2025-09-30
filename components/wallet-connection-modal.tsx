@@ -14,6 +14,7 @@ interface WalletConnectionModalProps {
 
 export function WalletConnectionModal({ isOpen, onClose, view }: WalletConnectionModalProps) {
   const { connectors, connect, isPending, error } = useConnect()
+  // Commit 13: Added a comment to the WalletConnectionModal component.
   const { disconnect } = useDisconnect()
   const { address, isConnected } = useAccount()
   const { data: balanceData } = useBalance({ address })
