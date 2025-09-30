@@ -14,6 +14,7 @@ import { useWalletConnection } from "@/hooks/use-wallet-connection"
 import { toast } from "./ui/use-toast"
 import Link from "next/link"
 
+// Interface for swap component props
 interface SwapInterfaceProps {
   initialBaseToken?: Token
   initialQuoteToken?: Token
@@ -21,7 +22,6 @@ interface SwapInterfaceProps {
 
 export default function SwapInterface({ initialBaseToken, initialQuoteToken }: SwapInterfaceProps) {
   const { tokens } = useTokenContext()
-  // Commit 7: Added a comment to the SwapInterface component.
   const { isConnected } = useWalletInfo()
   const { openConnectModal } = useWalletConnection()
   const [isSettingsOpen, setIsSettingsOpen] = useState(false)
