@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "UIswap - DeFi Token Swap",
-  description: "A decentralized exchange for swapping tokens ",
+  description: "A decentralized exchange for swapping tokens on various blockchains.",
   icons: {
     icon: "/icon.png",
     shortcut: "/favicon.ico",
@@ -33,5 +33,3 @@ export default function RootLayout() {
     </html>
   )
 }
-
-// End of layout.tsx
