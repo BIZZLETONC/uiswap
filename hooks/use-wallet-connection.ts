@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { useConnect, useDisconnect } from "wagmi"
 
-// Hook to manage wallet connection state and modal interactions
+// Hook to manage wallet connection state and modal interactions - updated
 export function useWalletConnection() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [modalView, setModalView] = useState<"connect" | "account" | "network">("connect")
