@@ -2,7 +2,7 @@ import { createConfig, http } from "wagmi"
 import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains"
 import { injected } from "wagmi/connectors"
 
-// Wagmi configuration for dApp and wallet connections
+// Wagmi configuration for connecting to different chains and wallets - updated
 export const config = createConfig({
   chains: [mainnet, polygon, optimism, arbitrum],
   transports: {
