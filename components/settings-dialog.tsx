@@ -105,3 +105,5 @@ export function SettingsDialog({ open, onOpenChange }: SettingsDialogProps) {
     </Dialog>
   )
 }
+
+// End of settings-dialog.tsx
