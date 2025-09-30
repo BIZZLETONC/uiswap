@@ -16,7 +16,7 @@ UIswap is a modern decentralized exchange (DEX) interface for swapping tokens on
 - **Styling**: Tailwind CSS, shadcn/ui components
 - **Wallet Connection**: wagmi
 - **State Management**: React Context API
-- **Type Safety**: TypeScript,
+- **Type Safety**: TypeScript
 
 ## Getting Started
 
