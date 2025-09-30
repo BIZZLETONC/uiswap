@@ -3,5 +3,6 @@ import { twMerge } from "tailwind-merge"
 
 // Utility function for combining CSS classes
 export function cn(...inputs: ClassValue[]) {
+  // Commit 12: Adding a comment inside the cn function
   return twMerge(clsx(inputs))
 }
