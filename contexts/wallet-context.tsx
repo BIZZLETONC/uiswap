@@ -54,6 +54,7 @@ const WalletContext = createContext<WalletContextType | undefined>(undefined)
 
 export function WalletProvider({ children }: { children: ReactNode }) {
   const { address, isConnected } = useAccount()
+  // Commit 15: Added a comment to the WalletProvider component.
   const chainId = useChainId()
   const { data: balanceData } = useBalance({ address })
   const { connect: wagmiConnect, connectors } = useConnect()
