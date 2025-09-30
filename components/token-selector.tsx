@@ -8,6 +8,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { ChevronDown, Search, TrendingUp } from "lucide-react"
 import { useTokenContext, type Token } from "./token-provider"
 
+// Props for the TokenSelector component
 interface TokenSelectorProps {
   selectedToken: Token
   onSelectToken: (token: Token) => void
@@ -16,7 +17,6 @@ interface TokenSelectorProps {
 
 export function TokenSelector({ selectedToken, onSelectToken, otherToken }: TokenSelectorProps) {
   const { tokens } = useTokenContext()
-  // Commit 8: Added a comment to the TokenSelector component.
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
 
