@@ -12,7 +12,7 @@ import { TokenProvider } from "@/components/token-provider"
 import { WalletProvider } from "@/contexts/wallet-context"
 import dynamic from "next/dynamic"
 
-// Import components dynamically to avoid SSR issues - updated
+// Dynamically import components to prevent SSR conflicts
 const SwapInterface = dynamic(() => import("@/components/swap-interface"), {
   ssr: false,
   loading: () => (
@@ -66,5 +66,3 @@ export default function ClientLayout() {
     </>
   )
 }
-
-// End of client-layout.tsx
