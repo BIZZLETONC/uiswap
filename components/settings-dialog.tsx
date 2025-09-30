@@ -8,6 +8,7 @@ import { Switch } from "@/components/ui/switch"
 import { Slider } from "@/components/ui/slider"
 import { Info } from "lucide-react"
 
+// Props for the SettingsDialog component
 interface SettingsDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
@@ -15,7 +16,6 @@ interface SettingsDialogProps {
 
 export function SettingsDialog({ open, onOpenChange }: SettingsDialogProps) {
   const [slippage, setSlippage] = useState(0.5)
-  // Commit 10: Added a comment to the SettingsDialog component.
   const [deadline, setDeadline] = useState(20)
   const [expertMode, setExpertMode] = useState(false)
   const [multihops, setMultihops] = useState(true)
