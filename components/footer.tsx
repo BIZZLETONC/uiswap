@@ -132,3 +132,5 @@ export function Footer() {
     </footer>
   )
 }
+
+// End of footer.tsx
