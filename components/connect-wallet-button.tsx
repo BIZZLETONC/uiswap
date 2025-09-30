@@ -9,6 +9,7 @@ import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains"
 
 export function ConnectWalletButton() {
   const [mounted, setMounted] = useState(false)
+  // Commit 9: Added a comment to the ConnectWalletButton component.
   const { address, isConnected } = useAccount()
   const chainId = useChainId()
   const [isModalOpen, setIsModalOpen] = useState(false)
