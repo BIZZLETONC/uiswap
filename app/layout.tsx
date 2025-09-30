@@ -22,6 +22,7 @@ export const metadata: Metadata = {
 export default function RootLayout() {
   return (
     <html lang="en" suppressHydrationWarning>
+      {/* Commit 3: Added a comment to the html tag for commit */}
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.png" type="image/png" />
