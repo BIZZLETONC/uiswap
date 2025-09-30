@@ -8,7 +8,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { ChevronDown, Search, TrendingUp } from "lucide-react"
 import { useTokenContext, type Token } from "./token-provider"
 
-// Props for the TokenSelector component
+// Props for the TokenSelector component - updated
 interface TokenSelectorProps {
   selectedToken: Token
   onSelectToken: (token: Token) => void
@@ -115,5 +115,3 @@ export function TokenSelector({ selectedToken, onSelectToken, otherToken }: Toke
     </>
   )
 }
-
-// End of token-selector.tsx
