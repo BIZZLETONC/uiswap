@@ -1,5 +1,6 @@
 "use client"
 
+// Custom hook for managing toast notifications
 // Inspired by react-hot-toast library
 import * as React from "react"
 
@@ -172,7 +173,6 @@ function toast({ ...props }: Toast) {
 }
 
 function useToast() {
-  // Commit 19: Added a comment to the useToast hook.
   const [state, setState] = React.useState<State>(memoryState)
 
   React.useEffect(() => {
