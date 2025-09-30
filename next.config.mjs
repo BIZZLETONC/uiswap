@@ -14,3 +14,4 @@ const nextConfig = {
 module.exports = nextConfig
 
 // Commit 1: Added a comment to next.config.mjs
+// Commit 2: Added another comment line for testing.
