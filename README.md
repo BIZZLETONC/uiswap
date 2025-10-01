@@ -6,8 +6,6 @@ UIswap is a modern, user-friendly decentralized exchange (DEX) interface for swa
 
 - **Token Swapping**: Easily swap between different tokens with a simple interface
 - **Wallet Integration**: Connect with popular wallets via RainbowKit (MetaMask, Coinbase Wallet, etc.)
-- **Portfolio Management**: Track your token holdings and transaction history
-- **Multi-chain Support**: Compatible with Ethereum, Polygon, Optimism, and Arbitrum
 - **Responsive Design**: Fully responsive interface that works on desktop and mobile devices
 
 ## Technologies
